@@ -1,0 +1,60 @@
+/*
+  CRIADO POR: VICTOR RAFAEL GONÇALVES SILVA
+  EMAIL: victorrafaelgs13@gmail.com
+*/
+
+.loginContainer{
+    background-color: #fff;
+    width: 250px;
+    height: 24em;
+    box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.288);
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 10px;
+    border: solid 1px #00000093;
+}
+.loginlogo{
+    height: 8em;
+    width: 8em;
+    margin-top: -30px;
+}
+.inputbox{
+    margin: 10px 0;
+}
+.label{
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-size: 1em;
+}
+.inputbox input{
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-bottom: solid 2px #02c00270;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #000000;
+}
+.logbutton{
+    width: 11em;
+    height: 25px;
+    border-radius: 5px;
+    background: #00A700;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.541);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 20px;
+}
+.logbutton:hover{
+    background-color: #007000;
+    transition: 1s;
+}

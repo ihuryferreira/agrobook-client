@@ -1,0 +1,14 @@
+/*
+  CRIADO POR: VICTOR RAFAEL GONÇALVES SILVA
+  EMAIL: victorrafaelgs13@gmail.com
+  MATRICULA: 202203004581
+*/
+.login{
+    display: grid;
+    place-items: center;
+    background-color: #ffffff;
+    height: 100vh;
+    background: url(../../assets/loginBackground.jpeg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}

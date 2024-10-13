@@ -1,0 +1,113 @@
+.container_pedidoId{
+     width: 100vw;
+     height: auto;
+     display: flex;
+     padding: 3rem 0;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Inter', sans-serif;
+}
+.subcontainer_pedidoId{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    padding: 0 0  1rem 0;
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+    border: 1px solid #909090;
+    background: #fff;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.25);
+}
+.inputs_superior{
+     width: 90%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     gap: 5rem;
+     padding: 50px;
+     
+
+}
+
+.inputs_inferior{
+     width: 90%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     gap: 5rem;
+     padding: 30px;
+}
+.text_area{
+     width: 50%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     gap: 5rem;
+     padding: 30px;
+}
+.title_pedido{
+     padding: 20px;
+
+}
+.div_buttons_pedidoid{
+     display: flex;
+     justify-content: end;
+     padding: 10px;
+     gap: 20px;
+}
+
+.input_EstoquepedidoId{
+     width: 15rem;
+     height: 2rem;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding: 5px;
+}
+
+.input_data_pedido_pedidoId{
+     width: 150px;
+     height: 2rem;
+     font-size: 16px;
+     border: 1px solid black;
+     box-shadow:1px 1px 4px 0px rgba(0, 0, 0, 0.50) ;
+     border-radius: 5px;
+     padding: 2px;
+}
+.inputs_superiores_pedidos{
+     width: 12rem;
+     height: 2rem;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding: 5px;
+
+}
+
+.text_area_pedidoId{
+     border: 1px solid black;
+     border-radius: 5px;
+     padding: 5px;
+}
+.buttos_pedidoId_aprovar{
+     background-color:  #3AC661;
+     font-size: 16px;
+     width: 60px;
+     height: 2rem;
+     border: none;
+     cursor: pointer;
+     box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+     color: #fff;
+     border-radius: 5px;
+}
+.buttos_pedidoId_reprovar{
+     background-color:  #C63A3A;;
+     font-size: 16px;
+     width: 60px;
+     height: 2rem;
+     border: none;
+     cursor: pointer;
+     box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+     color: #fff;
+     border-radius: 5px;
+}

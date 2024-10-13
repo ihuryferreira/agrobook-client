@@ -1,0 +1,22 @@
+.loaderContainer{
+    width: 50px;
+    height: 50px;
+    border: 6px solid #e3e3e3;
+    border-radius: 50%;
+    border-right-color: #52F6AF;
+    animation: spin 1s ease infinite;
+}
+
+@keyframes spin {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.loaderDivContainer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

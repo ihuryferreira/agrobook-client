@@ -1,0 +1,119 @@
+/*
+  CRIADO POR: GUILHERME HENRIQUE PORTO DOS SANTOS
+  EMAIL: guilhermeportosantos1@gmail.com
+*/
+
+.HeaderContainer{
+    background-color: #52F6AF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    z-index: 1;
+}
+
+
+.button-search{
+    background-color: #fff;
+    height: 2rem;
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    width: 2rem;
+    cursor: pointer;
+}
+
+.input-header{
+    border-radius: 10px 0 0 10px;
+    width: 450px;
+    height: 2rem;
+    border: 1px solid #ccc;
+    padding-left: 1rem;
+    border: 1px solid #ccc;
+}
+
+.input-header:focus{
+    border-color: #666666;
+    outline: none;
+}
+
+
+
+
+
+
+.Link-img-logo-header{
+    width: 160px;
+}
+.img-logo-header{
+    width: 100%;
+}
+
+
+.button-menu{
+    background-color: transparent;
+    border: none;
+}
+
+.bx-menu{
+    font-size: 2.5rem;
+    font-weight: 100;
+}
+.bx-menu:hover{
+    cursor: pointer;
+}
+
+
+@media (max-width: 900px) {
+    .input-header{
+        width: 400px;
+    }
+
+    .Link-img-logo-header{
+        width: 140px;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .input-header{
+        width: 260px;
+    }
+
+    .Link-img-logo-header{
+        width: 120px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .input-header{
+        width: 260px;
+    }
+
+    .Link-img-logo-header{
+        display: none;
+        width: 120px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .input-header{
+        width: 200px;
+        height: 1.8rem;
+    }
+
+    .button-search{
+        height: 1.8rem;
+    }
+
+    .Link-img-logo-header{
+        display: none;
+        width: 120px;
+    }
+    .bx-menu{
+        font-size: 2rem;
+        font-weight: 100;
+    }
+
+}

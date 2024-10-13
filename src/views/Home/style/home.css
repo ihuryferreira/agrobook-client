@@ -1,0 +1,91 @@
+/*
+  CRIADO POR: Fillype da Silva Macedo Cunha
+  EMAIL: fillypecunha@gmail.com
+  
+  CRIADO POR: VICTOR RAFAEL GONÇALVES SILVA
+  EMAIL: victorrafaelgs13@gmail.com
+*/
+.booksContainer{
+    display: flex;
+   text-align: center;
+    overflow: hidden;
+    
+  
+    
+}
+
+.slider-home{
+    transition: transform 0.3s ease-in-out;
+    background-color: #fff;
+     width: 100%;
+     
+    
+}
+.book-slider {
+    overflow: hidden;
+    display: flex;
+    width: 80%;
+  overflow-x: scroll;
+    
+   
+}
+
+.book-slider::-webkit-scrollbar{
+    display: none;
+}
+.card-home{
+    padding: 10px;
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    overflow: hidden;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 20px rgba(9, 9, 9, 0.288);
+    border-radius: 5px;
+    flex: none;
+  scroll-behavior: smooth;
+  
+}
+
+.home-imagem{
+    width: 80%;
+    height: 80%;
+   margin-top: 10px;
+}
+.titulo-book{
+    text-align: center;
+    font-size: 20px;
+    margin: 1px;
+  
+}
+.div-title{
+    width: 100%;
+    height: 45px;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+.title-genero{
+    display: flex;
+    margin: 10px;
+}
+.teste{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px;
+}
+.button-frente{
+    display: flex;
+   
+}
+.icon-left{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}
+.icon-right{
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+}

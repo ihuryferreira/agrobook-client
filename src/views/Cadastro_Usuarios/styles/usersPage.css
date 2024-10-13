@@ -1,0 +1,226 @@
+/*
+  CRIADO POR: GUILHERME HENRIQUE PORTO DOS SANTOS
+  EMAIL: guilhermeportosantos1@gmail.com
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
+
+.containerUsersMain{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.inputsUsersContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 0 0  1rem 0;
+}
+/* Estilização do input de busca */
+
+.inputSearchUser{
+    border-radius: 10px 0 0 10px;
+    width: 330px;
+    height: 2rem;
+    border: 1px solid #ccc;
+    padding-left: 1rem;
+    border: 1px solid #ccc;
+    border-right: none;
+}
+.inputSearchUser:focus {
+    border-color: #666666;
+    outline: none;
+}
+.inputSearchUser:focus + .buttonSearchUser {
+    border-color: #666666;
+}
+
+.buttonSearchUser{
+    
+    background-color: #fff;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+    border: 1px solid #ccc;
+    border-left: none;
+    width: 2rem;
+    cursor: pointer;
+}
+
+
+/* Estilização do Botão Novo */
+.LinkCreateUser > button{
+    background-color: #3AC661;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    width: 7rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.LinkCreateUser > button:hover{
+    background-color: #329b50;
+}
+
+
+/* Estilização do conteiner de usuarios */
+.usersContainer{
+    width: 80%;
+    height: 100%;
+    max-height: 500px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background: #FFF;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.25);
+    overflow: auto;
+
+}
+
+/* Estilização da scroll bar */
+.usersContainer::-webkit-scrollbar {
+    width: .5rem;
+    padding: 1rem;
+  }
+  
+  .usersContainer::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 6px;
+  }
+  
+  .usersContainer::-webkit-scrollbar-track {
+    background-color: #f0f0f0;
+  }
+  
+  
+
+.headTableUsers{
+    display: grid;
+    grid-template-columns: 4fr 4fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    padding: 1rem 1rem 0 3rem;
+    font-size: 1rem;
+    font-weight: 700;
+    height: 2rem;
+    width: 90%;
+}
+
+.headTableUsers > span{
+    height: 1rem;
+}
+
+.userTable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding: 1rem 0 1.5rem 0;
+}
+
+.user{
+    width: 90%;
+    height: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: 4fr 4fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-items: start;
+    align-items:center;
+    font-size: .9rem;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.25);
+    gap: 1rem;
+}
+
+.editUserLink{
+    height: 25px;
+    justify-self: center;
+}
+
+
+
+.editarSpan{
+    justify-self: center;
+}
+
+.editUserLink > img {
+    height: 100%;
+}
+
+
+@media (max-width: 900px) {
+    .user{
+        font-size: .8rem;
+    }
+
+}
+
+@media (max-width: 650px) {
+    .user{
+        font-size: .7rem;
+        grid-template-columns: 4fr 4fr 1fr;
+        
+    }
+
+    .headTableUsers{
+        grid-template-columns: 4fr 4fr 1fr 1fr;
+        font-size: .8rem;
+        
+    }
+
+    .editUserLink{
+        height: 20px;
+    }
+
+    .cargoSpan, .userCargo, .emailSpan, .userEmail {
+        display: none;
+    }
+
+    .inputSearchUser{
+        width: 240px;
+        padding-left: 1rem;
+    }
+    
+    
+    .LinkCreateUser > button{
+        width: 5rem;
+        font-size: .8rem;
+        height: 2rem;
+    }
+}
+
+@media (max-width: 460px){
+
+    .usersContainer{
+        width: 100%;
+    }
+
+    .inputSearchUser{
+        width: 200px;
+    }
+    
+    .inputsUsersContainer{
+        width: 95%;
+    }
+}
+
+@media (max-width: 375px){
+    .inputSearchUser{
+        width: 150px;
+    }
+
+    .user{
+        font-size: .6rem;
+        gap: 1rem;
+    }
+
+    .headTableUsers{
+        display: none;
+    }
+}

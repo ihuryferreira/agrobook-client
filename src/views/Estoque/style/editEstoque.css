@@ -1,0 +1,227 @@
+.container_edit_estoque{
+     width: 100vw;
+     height: auto;
+     display: flex;
+     padding: 3rem 0;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Inter', sans-serif;
+}
+.subcontainer_edit_estoque{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 70%;
+    padding: 0 0  1rem 0;
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+    border: 1px solid #909090;
+    background: #fff;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.div_title_edit_estoque{
+     display: flex;
+     justify-content: space-between;
+     padding: 1.5rem;
+}
+.div_form{
+     display: flex;
+    flex-direction: column;
+    padding: 1rem 4rem;
+    gap: 2rem;
+    height: 100%;
+    justify-content: space-around;
+}
+.first_inputs_estoque{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     gap: 5rem;
+}
+/* ----- input capa --------- */
+.input_capa_edit{
+     width: 30rem;
+     height: 2rem;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding: 5px;
+
+}
+
+/* --------------------------------------------- */
+
+/* ----- input titulo --------- */
+.input_titulo_edit{
+ width: 30rem;
+height: 2rem;
+border: 1px solid black;
+border-radius: 5px;
+padding: 5px;
+}
+
+
+/* --------------------------------------------- */
+.seconds_inputs_edit{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     gap: 5rem;
+}
+/* ----- input quantidade de estoque --------- */
+.input_estoque_edit{
+     width: 15rem;
+     height: 2rem;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding: 5px;
+}
+
+/* Retira setinha de incremento do navegador */
+.input_estoque_edit[type="number"] {
+     -moz-appearance: textfield; 
+   }
+   
+   .input_estoque_edit[type="number"]::-webkit-inner-spin-button,
+   .input_estoque_edit[type="number"]::-webkit-outer-spin-button {
+     -webkit-appearance: none; 
+     margin: 0;
+   }
+
+   /* --------------------------------------------- */
+
+
+   /* ----- input quantidade de pagina --------- */
+.input_qtd_edit{
+     width: 10rem;
+     height: 2rem;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding: 5px;
+}
+.input_estoque_edit[type="number"] {
+     -moz-appearance: textfield; 
+   }
+   
+   .input_estoque_edit[type="number"]::-webkit-inner-spin-button,
+   .input_estoque_edit[type="number"]::-webkit-outer-spin-button {
+     -webkit-appearance: none; 
+     margin: 0;
+   }
+   /* --------------------------------------------- */
+
+   /* ----- input idioma --------------------------- */
+.input_idioma_edit{
+     width: 10rem;
+     height: 2.8rem;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding: 5px;
+}
+/* --------------------------------------------- */
+ /* ----- input Autor --------------------------- */
+.input_autor_edit{
+     width: 12rem;
+     height: 2rem;
+     border: 1px solid black;
+     border-radius: 5px;
+     padding: 5px;
+
+}
+
+ /* --------------------------------------------- */
+
+
+.third_inputs_edit{
+     display: flex;
+     
+}
+ /* ----- input select edit --------------------------- */
+.input_select_edit{
+     width: 65rem;
+     padding: 10px;
+     height: 3.5rem;
+     overflow: hidden;
+     font-size: 16px;
+     cursor: pointer;
+     border-radius: 5px;
+     
+}
+.input_select_edit option{
+     display: inline-block;
+     margin-right: 10px;
+     background-color:#74CDFF;
+     width: 100px;
+     height: 1.6rem;
+     text-align: center;
+     padding: 5px;
+}
+/* --------------------------------------------- */
+.room_inputs_edit{
+     width: 100%;
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     gap: 5rem;
+}
+/* ----- input sinopse --------------------------- */
+
+.input_sinopse_edit{
+     width: 50rem;
+     height: 10rem; 
+     border-radius: 5px;
+     box-shadow:1px 1px 4px 0px rgba(0, 0, 0, 0.50) ;
+     border: 1px solid black;
+}
+/* --------------------------------------------- */
+
+/* ----- input data de lançanmento --------------------------- */
+.input_lacamento_edit{
+     width: 150px;
+     height: 2rem;
+     font-size: 16px;
+     border: 1px solid black;
+     box-shadow:1px 1px 4px 0px rgba(0, 0, 0, 0.50) ;
+     border-radius: 5px;
+     padding: 2px;
+}
+/* --------------------------------------------- */
+
+
+.div_button_edit{
+     display: flex;
+     justify-content: end;
+     padding: 10px;
+     gap: 20px;
+}
+/* ----- button salvar --------------------------- */
+.button_edit_estoques_salvar{
+     background-color:  #3AC661;
+     font-size: 16px;
+     width: 60px;
+     height: 2rem;
+     border: none;
+     cursor: pointer;
+     box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+     color: #fff;
+     border-radius: 5px;
+
+}
+/* --------------------------------------------- */
+/* ----- button excluir --------------------------- */
+.button_edit_estoques_excluir{
+     background-color:  #C63A3A;;
+     font-size: 16px;
+     width: 60px;
+     height: 2rem;
+     border: none;
+     cursor: pointer;
+     box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+     color: #fff;
+     border-radius: 5px;
+
+}

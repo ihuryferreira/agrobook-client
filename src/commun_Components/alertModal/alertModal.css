@@ -1,0 +1,81 @@
+/*
+  CRIADO POR: GUILHERME HENRIQUE PORTO DOS SANTOS
+  EMAIL: guilhermeportosantos1@gmail.com
+*/
+.backgroundModalAlert{
+    background-color: rgba(0, 0, 0, 0.159);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 400;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.alertModal{
+    width: 30%;
+    height: 40%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.212);
+    font-size: .9rem;
+    text-align: center;
+    padding: 1rem;
+}
+
+.conteinerBtnModalAlert{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 2rem;
+}
+
+.alertModal img{
+    width: 20%;
+}
+
+.cancelModalAlertButton{
+    width: 30%;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: #325EA1;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    cursor: pointer;
+}
+.cancelModalAlertButton:hover{
+    background: #254779;
+}
+
+.continuosModalAlertButton:hover{
+    background: #912323;
+}
+
+.continuosModalAlertButton{
+    width: 30%;
+    height: 2rem;
+    border-radius: 5px;
+    background: #C63A3A;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: none;
+}

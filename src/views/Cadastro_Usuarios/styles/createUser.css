@@ -1,0 +1,215 @@
+/*
+  CRIADO POR: GUILHERME HENRIQUE PORTO DOS SANTOS
+  EMAIL: guilhermeportosantos1@gmail.com
+*/
+.createUserMasterComponent{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    padding: 3rem 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+}
+
+.createUserComponent{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 70%;
+    padding: 0 0  1rem 0;
+    font-family: 'Inter', sans-serif;
+    border-radius: 10px;
+    border: 1px solid #909090;
+    background: #FFF;
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.25);
+}
+
+.createUserHeader{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+.bx-x{
+    font-size: 1.8rem;
+    color: black;
+}
+
+
+
+.createUserMain{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 4rem;
+    gap: 2rem;
+    height: 100%;
+    justify-content: space-around;
+}
+
+.firstcontainerinput{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.secondcontainerinput{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.thirdcontainerinput{
+    display: flex;
+    justify-content: end;
+
+}
+.saveButton{
+    background-color: #3AC661;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    width: 7rem;
+    height: 2rem;
+    cursor: pointer;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.saveButton:hover{
+    background-color: #2c7a42;
+}
+
+.createFormInputs{
+    display: flex;
+    flex-direction: column;
+    font-size: .9rem;
+    width: 100%;
+    
+}
+
+.containerCargo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: .9rem;
+}
+
+.containerCargo select{
+    border-radius: 5px;
+    border: 1px solid #B8B8B8;
+    padding: .5rem;
+    background: #FFF;
+}
+
+
+
+.containerCargo b{
+    color: red;
+}
+
+
+.createFormInputs b{
+    color: red;
+}
+
+.createFormInputs input{
+    border-radius: 5px;
+    border: 1px solid #B8B8B8;
+    padding: .5rem;
+    background: #FFF;
+}
+#cpf{
+    width: 40%;
+}
+
+#createsenha{
+    width: 70%;
+}
+
+.createFormInputs input:focus{
+    border-color: #666666;
+    outline: none;
+}
+
+/* 
+Retira setinha de incremento do navegador */
+
+.inputCpf input[type="number"] {
+    -moz-appearance: textfield; 
+  }
+  
+  .inputCpf input[type="number"]::-webkit-inner-spin-button,
+  .inputCpf input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none; 
+    margin: 0;
+  }
+
+
+  @media (max-width: 980px){
+    .secondcontainerinput{
+        gap: 2rem;
+    }
+  }
+
+  @media (max-width: 750px){
+    
+.firstcontainerinput{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.secondcontainerinput{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    
+    gap: 1rem;
+}
+
+.thirdcontainerinput{
+    display: flex;
+    justify-content: end;
+
+}
+    
+    .secondcontainerinput{
+
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+
+    .createUserMain{
+        justify-content: center;
+        height: auto;
+    }
+
+    .createUserComponent{
+        height: auto;
+        margin: auto;
+    }
+  }
+
+  @media (max-width: 550px){
+    .createUserMain{
+        padding: 1rem 2rem;
+    }
+
+
+    .createUserComponent{
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-radius: none;
+    }
+
+    .createUserMasterComponent{
+        padding: 0;
+    }
+  }

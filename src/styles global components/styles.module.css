@@ -1,0 +1,11 @@
+/*
+  CRIADO POR: VICTOR RAFAEL GONÇALVES SILVA
+  EMAIL: victorrafaelgs13@gmail.com
+*/
+* {
+  cursor: default;
+}
+.button{
+    height: 200px;
+    background-color: yellow;
+}
